@@ -1,0 +1,13 @@
+:root { color-scheme: light; font: 14px/1.45 "Segoe UI", Arial, sans-serif; color: #202d38; }
+body { margin: 0; background: #f6f7f4; width: 530px; }
+main { padding: 18px; }
+h1 { font-size: 20px; margin: 0 0 6px; }
+p { margin: 5px 0 12px; }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; }
+button { border: 1px solid #bec9c1; border-radius: 7px; font: inherit; font-weight: 600; padding: 6px 12px; background: white; color: #263d36; cursor: pointer; }
+#run { background: #22644c; color: white; }
+button:disabled { opacity: .45; cursor: default; }
+#picker { position: relative; width: fit-content; margin: 0 auto 10px; line-height: 0; cursor: crosshair; touch-action: none; user-select: none; }
+#shot { display: block; max-width: 490px; max-height: 320px; }
+#rect { position:absolute; pointer-events:none; box-sizing:border-box; border: 2px solid #32eda2; background: #21ce9017; }
+#selection { font-size: 13px; }

@@ -1,0 +1,21 @@
+AUTO THÔNG THIÊN THÁP · BẢN WEB H5
+
+Cài trên Chrome hoặc Edge máy tính
+Giải nén ZIP nếu dùng bản tải về. Mở chrome://extensions hoặc edge://extensions, bật Chế độ dành cho nhà phát triển rồi chọn Tải tiện ích đã giải nén (Load unpacked). Chọn đúng thư mục có manifest.json.
+
+Chạy
+1. Mở game web và vào Thông Thiên Tháp. Mở tiện ích ngay trên tab đó.
+2. Bấm Chọn vùng game. Trên ảnh thu nhỏ, kéo sát toàn bộ khung chơi dọc, từ góc trên trái đến góc dưới phải. Bỏ viền đen, banner web và khung chat nằm ngoài game.
+3. Bấm Chạy auto. Có thể đóng bảng tiện ích và mở lại để xem bước hiện tại hoặc bấm Dừng. Khi bạn chuyển tab, tiện ích sẽ chờ bạn quay lại.
+
+Kiểm tra vùng chọn
+Xem thử chỉ hiển thị nút dự kiến bấm. Bạn tự đi qua các màn hình để kiểm tra. Để chuyển sang chạy thật, bấm Dừng, chọn lại vùng rồi bấm Chạy auto. Nếu cuộn trang, thu phóng hoặc đổi kích thước cửa sổ, hãy chọn lại vùng.
+
+Luồng đánh
+Tháp → Khiêu chiến → Khiêu chiến trong bảng chi tiết → Bắt đầu. Ngay sau Bắt đầu, tiện ích kiểm tra màn hình trận thường xuyên hơn. Ngay khung hình đầu tiên nhận ra nút Bỏ qua dưới Cài đặt, tiện ích bấm vào giữa nút. Khi thắng, tiện ích bấm Ải sau. Khi bại, tiện ích nhận diện màn hình có dòng Mạnh lên sau khi rồi bấm Xác nhận phía dưới bên trái. Tiện ích đợi thấy nút 1 Khiêu chiến trên màn hình tháp mới đánh lại.
+
+Nếu game đột ngột về Lịch Luyện khi trận vẫn đang diễn ra, tiện ích bấm Thông Thiên Tháp ở ô phía trên bên trái, bấm Tứ Linh Tháp ở thanh dưới rồi bấm ô đang sáng trong bốn ô. Sau khi quay lại trận, tiện ích tiếp tục bấm Bỏ qua. Trong nhánh này tiện ích không bấm Khiêu chiến trên màn hình tầng.
+
+Ở màn hình thắng, tiện ích tìm cặp nút Xác nhận và Ải sau rồi bấm giữa nút Ải sau bên phải. Nếu màn hình vẫn đứng ở đó sau 2,2 giây, tiện ích thử bấm lại một lần. Với Bỏ qua, thời gian thử lại là 1,5 giây. Các bước khác chờ hai khung hình ổn định và có thể thử lại sau 9 giây. Nếu không nhận diện được bước mới trong 3 phút khi đang ở tab game, tiện ích dừng.
+
+Chrome/Edge hiển thị thông báo gỡ lỗi vì tiện ích dùng quyền debugger để chụp hình và gửi cú bấm vào tab game. Ảnh được xử lý ngay trên máy. Bấm Dừng để ngắt kết nối.

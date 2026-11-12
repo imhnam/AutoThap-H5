@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<title>Auto Thông Thiên Tháp</title>
+<link rel="stylesheet" href="popup.css">
+<main>
+  <h1>Thông Thiên Tháp</h1>
+  <p id="status" role="status">Đang kết nối…</p>
+  <div id="picker" hidden><img id="shot" alt="Kéo trên ảnh để chọn toàn bộ vùng game dọc" draggable="false"><div id="rect" hidden></div></div>
+  <p id="selection" hidden></p>
+  <div class="controls">
+    <button id="prepare">Chọn vùng game</button>
+    <button id="preview" disabled>Xem thử</button>
+    <button id="run" disabled>Chạy auto</button>
+    <button id="stop" hidden>Dừng</button>
+  </div>
+</main>
+<script type="module" src="popup.js"></script>
+</html>

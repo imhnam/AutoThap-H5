@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Thông Thiên Tháp · Auto H5",
+  "description": "Nhận diện màn hình Thông Thiên Tháp để khiêu chiến, qua ải và đánh lại khi bại.",
+  "version": "1.4.0",
+  "minimum_chrome_version": "118",
+  "permissions": ["debugger"],
+  "background": {"service_worker": "worker.js", "type": "module"},
+  "action": {"default_title": "Auto Thông Thiên Tháp", "default_popup": "popup.html"}
+}
